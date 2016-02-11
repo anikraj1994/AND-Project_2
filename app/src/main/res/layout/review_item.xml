@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="13dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:id="@+id/author"
+        android:textColor="#555"
+        android:textSize="18sp"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="askjdabajhbd asbdasbdhjasbdhjsabdjhasbd sab dbasdhjbas hjdbashjdbashjb dhjsabd asbdhjsabdjhbas hjdbaskjhdbaskhjbdhjksabdjsahkbd hjksab dabk"
+    android:id="@+id/content"
+        android:layout_below="@+id/author"
+    android:textColor="#555"
+    android:textSize="15sp"/>
+
+    </RelativeLayout>

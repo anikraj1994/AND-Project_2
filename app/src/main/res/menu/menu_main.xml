@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.anikraj.popularmoviespart1.MainActivity">
+    <item
+        android:id="@+id/sort_popular"
+        android:orderInCategory="100"
+        android:title="@string/sort_popular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_mostrated"
+        android:orderInCategory="100"
+        android:title="@string/sort_mostrated"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_favorite"
+        android:orderInCategory="100"
+        android:title="@string/fav"
+        app:showAsAction="never" />
+</menu>
